@@ -1,0 +1,38 @@
+/* Aula inicial :D */
+body{
+	background-image: url('https://static1.patasdacasa.com.br/articles/1/35/1/@/1093-gatos-pretos-sao-animais-fascinantes-co-article_media_mobile-4.jpg');
+	background-size: auto 100vh; /*largura da imagem automática, altura sempre igual a altura da tela*/
+	font-family: Arial;
+	height: 100vh; /* garantindo que a altura do body seja sempre a mesma */
+}
+
+.menu{
+	background-color: white;
+}
+
+.menu ul{
+	display: flex;
+	/* justify-content: space-between; */ /* separa os tópicos do menu entre eles (os da ponta ficam grudados nas laterais)*/
+	justify-content: space-around;
+}
+
+.menu li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.site-title, .site-subtitle{
+	color: whitesmoke;
+	text-align: center;
+}
+
+.site-subtitle{
+	font-style: italic;
+}
